@@ -72,16 +72,7 @@ layerSwitcher.hidePanel = function() {};
 layerSwitcher.showPanel();
 
 
-    var searchLayer = new ol.SearchLayer({
-      layer: lyr_Otheroccurrences_5,
-      colName: 'Name',
-      zoom: 10,
-      collapsed: true,
-      map: map
-    });
-
-    map.addControl(searchLayer);
-map.getView().fit([829669.618050, -1611185.375030, 4055518.223866, 652889.620073], map.getSize());
+map.getView().fit([1492970.145584, -1408510.530657, 4271022.428790, 537718.238895], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
